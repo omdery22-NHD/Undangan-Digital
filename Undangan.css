@@ -1386,7 +1386,8 @@ animation: goyangBunga 8s ease-in-out infinite;
     position: relative;
   }
 }
-}#music-toggle {
+}
+#music-toggle {
   position: fixed;
   bottom: 20px;
   right: 20px;
