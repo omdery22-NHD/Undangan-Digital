@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=350, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Undangan.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta name="google" content="notranslate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <title>Document</title>
+</head>
+<body class="lock-scroll">
+  <div class="content">
+     <!-- Musik Latar -->
+  <audio id="bg-music" autoplay loop>
+    <source src="up1.mp3" type="audio/mpeg" />
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <!-- Tombol Musik -->
+  <button id="music-toggle" aria-label="Toggle Music">🎵</button>
+  <div class="cover" id="cover">
+      <div class="hero gsap-hero">
+    <img src="fhoto.jpg" alt="undangan">
+    <div class="fade-overlay"></div>
+     
+  </div class="text">
+  <div class="gr2">
+  <h3 class="gr1 gsap-gr1">The Wedding of</h3>
+  <h1 class="gr3 gsap-gr3">Dery & Riska</h1>
+  <div class="gsap-guest">
+      <p class="guest-name">Kepada Bapak/Ibu/Saudara/i<br><strong id="nama-tamu">Nama Tamu</strong></p>
+</div>
+  </div>
+  <div class="gsap-button">
+  <button class="open-btn" onclick="bukaUndangan()">Buka Undangan</button>
+</div>
+  <div class="gr"></div>
+ <img src="Bunga7.png" alt="Dekorasi Bunga" class="bunga-pojok-kiri" />
+  <img src="Bunga7.png" alt="Dekorasi Bunga" class="bunga-pojok" />
+    <img src="Bunga8.png" alt="Dekorasi Bunga" class="bunga-pojok-kanan" />
+        <img src="Bunga8.png" alt="Dekorasi Bunga" class="bunga-pojok-kanan2" />
+  </div>
+  <div class="wadah"></div>
+<div class="bingkai-kanan"><img src="Bunga9.png" alt="bingkai"></div>
+<div class="bingkai-kiri"><img src="Bunga10.png" alt="bingkai"></div>
+<div class="bingkai-kanan1"><img src="Bunga9.png" alt="bingkai"></div>
+<div class="bingkai-kiri1"><img src="Bunga10.png" alt="bingkai"></div>
+<h1>The Wedding Of</h1>
+<div class="fhoto"><img src="fhoto.jpg" alt=""></div>
+<div class="name">
+  <h1>Dery & Riska</h1>
+  </div>
+    <p>Kami berharap Anda menjadi bagian dari hari istimewa kami</p>
+    <div class="countdown" id="countdown">
+      <h2>Menuju Hari Bahagia</h2>
+  <div class="days">
+    <span id="days"></span><br><label>Hari</label>
+  </div>
+  <div class="hours">
+    <span id="hours"></span><br><label>Jam</label>
+  </div>
+  <div class="minutes">
+    <span id="minutes"></span><br><label>Menit</label>
+  </div>
+  <div class="seconds">
+    <span id="seconds"></span><br><label>Detik</label>
+  </div>
+  <h3>30 September 2025</h2>
+</div>
+<div class="Bismillah gsap-foto"><img src="Bismillah2.png" style="width:250px;"></div>
+<div class="salam gsap-foto1"><h1>Assalamualaikum.wr.wb</h1>
+<p class="salam1 gsap-foto2">Tanpa mengurangi rasa hormat Kami mengundang Bapak/Ibu/Saudara/i serta Kerabat sekalian untuk menghadiri acara pernikahan kami :</p>
+</div>
+<div class="salam2"></div>
+<div class="biodata gsap-foto3">
+  <img src="fhoto3.jpg" >
+<h1 class="nama1 gsap-foto4">Dery Kusuma Putra</h1>
+<p class="nama2 gsap-foto5">Putra Pertama Dari Bapak Dedeng & Ibu Dede</p>
+</div>
+<div class="biodata1"></div>
+<div class="biodata2 gsap-foto6">
+  <img src="fhoto4.jpg" alt="">
+  <h1 class="nama3 gsap-foto7">Riska Libriani</h1>
+  <p class="nama4 gsap-foto8">Putri Pertama Dari Alm. Bapak Ace & Ibu Siti</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,181.3C384,160,480,128,576,133.3C672,139,768,181,864,208C960,235,1056,245,1152,229.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<div class="save">
+  <h1 class="gsap-save">Save The Date</h1>
+  <p class="gsap-save1">"Dan segala sesuatu Kami ciptakan berpasang-
+pasangan agar kamu mengingat (kebesaran Allah)."
+(QS. Az Zariyat: 49)</p>
+  </div>
+<div class="svg2 gsap-svg2">
+  <h1>Akad Nikah</h1>
+  <p>Minggu, 30 Setember 2025</p>
+  <p>Pukul 10:00 WIB</p>
+  <p>Alamat: Ds.Pucung Kec.wates Kab.Karawang</p>
+</div>
+<div class="svg3"></div>
+<div class="svg4 gsap-svg4">  
+<h1>Resepsi</h1>
+  <p>Minggu, 30 Setember 2025</p>
+  <p>Pukul 10:00 WIB</p>
+  <p>Alamat: Ds.Pucung Kec.wates Kab.Karawang</p>
+  </div class="maps">
+  <a href="https://www.google.com/maps?q=-6.175392,106.827153" target="_blank" class="maps-button">
+  📌 Lihat Lokasi
+</a>
+<div class="tree gsap-tree"><img src="tree.png" alt=""></div>
+<div class="tree1 gsap-tree1"><img src="tree1.png" alt=""></div>
+<div class="amplop1">
+  <h1 class="gsap-amplop">Amplop Digital</h1>
+  <p class="gsap-amplop1">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami</p>
+  <p class="gsap-amplop1">Dan jika memberi adalah ungkapan tanda kasih Anda,Anda dapat memberi kado secara cashlees.</p>
+  <div class="amplop-container gsap-amplop2" onclick="bukaAmplop()">
+    <div class="amplop">🎁 Klik disini</div>
+    <div class="kartu1">
+      <div class="card">
+              <h1>DERY KUSUMA PUTRA<br>Bank Mandiri</h1>
+      <p class="card-number" id="number">1730010551910</p>
+        <button class="copy-btn1" data-copy="#number">Copy</button>
+      </div>
+    </div>
+    <div class="kartu2">
+            <div class="card1">
+              <h1>DERY KUSUMA PUTRA<br>Dana</h1>
+      <p class="card-number" id="Dana-number">081316475941</p>
+        <button class="copy-btn1" data-copy="#Dana-number">Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Putri"></div>
+<div class="Putri1"><img src="tree4.png" alt=""></div>
+<div class="galery">
+<div class="galery1 gsap-galery1"><h1>Galery</h1></div>
+<div class="galery2 gsap-galery2"><p>Tidak ada yang spesial dalam cerita kami. Tapi kami sangat spesial untuk satu sama lain.<br>
+    Dan Kami bersyukur, dipertemukan Allah di waktu terbaik. Kini kami menanti hari istimewa kami.</p></div>
+
+  <div class="foto-wrapper gsap-wrapper">
+    <div class="kolom-kiri">
+    <img src="galeri.jpg" alt="Foto 1" class="foto-galeri" onclick="bukaPopup(0)"/>
+        <img src="galeri2.jpg" alt="Foto 3" class="foto-galeri3" onclick="bukaPopup(1)"/>
+        </div>
+        <div class="kolom-kanan">
+    <img src="galeri1.jpg" alt="Foto 2" class="foto-galeri" onclick="bukaPopup(2)"/>
+    <img src="galeri3.jpg" alt="Foto 4" class="foto-galeri" onclick="bukaPopup(3)"/>
+    <img src="fhoto1.jpg" alt="Foto 5" class="foto-galeri" onclick="bukaPopup(4)"/>
+    </div>
+    </div>
+  </div>
+<div id="popup-galeri" class="popup">
+  <span class="tutup" onclick="tutupPopup()">&times;</span>
+  <img id="popup-img" src="" />
+  <div class="navigasi">
+    <button onclick="sebelumnya()">←</button>
+    <button onclick="selanjutnya()">→</button>
+  </div>
+</div>
+
+<div class="love1 gsap-love"><img src="love.png" width="80px" height="80px" alt=""></div> 
+
+<svg class="svg10" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-biru" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="white" />
+      <stop offset="100%" stop-color="#4285F4" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#gradient-biru)" fill-opacity="1"
+d="M0,224L48,218.7C96,213,192,203,288,181.3C384,160,480,128,576,133.3C672,139,768,181,864,208C960,235,1056,245,1152,229.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    
+  </path>
+</svg>
+  <div id="form-ucapan">
+    <h2 class="Ucapan gsap-ucapan">Berikan Ucapan & Doa Restu</h2>
+    <div id="statistik-wrapper">
+  <div class="stat-box hadir gsap-ucapan1">Hadir: <span id="hadir-count">0</span>
+  </div>
+  <div class="stat-box tidak-hadir gsap-ucapan2">Tidak Hadir: <span id="tidak-hadir-count">0</span></div>
+  <div class="stat-box komentar gsap-ucapan3">Komentar: <span id="komentar-count">0</span></div>
+</div>
+
+    <p id="peringatan" class="gsap-ucapan4">⚠️ Mohon maaf! Khusus untuk tamu undangan</p>
+
+    <input class="gsap-ucapan5" type="text" id="nama" placeholder="Nama" readonly>
+    <textarea class="gsap-ucapan6" id="ucapan" placeholder="Ucapan & Doa Restu" disabled></textarea>
+
+    <select id="kehadiran">
+      <option value="">Konfirmasi Kehadiran</option>
+      <option value="Hadir">Hadir</option>
+      <option value="Tidak Hadir">Tidak Hadir</option>
+    </select>
+
+    <button class="gsap-ucapan7" id="kirim" onclick="kirimUcapan()">Kirim</button>
+      <div id="daftar-komentar">
+    <h3>Ucapan & Doa Restu</h3>
+ 
+    <!-- Komentar akan muncul di sini -->
+  </div>
+  <div class="gsap-ucapan8" id="navigasi-komentar" style="text-align:center; margin-top:10px;"></div>
+  </div>
+  <div class="penutup">
+    <img src="tree4.png" alt="">
+    </div>
+<div class="romantis gsap-romantis">
+  <img src="romantis.jpeg" alt="">
+  <p>Merupakan suatu kehormatan dan kebahagiaan
+bagi kami, apabila Bapak/Ibu/Saudara/i berkenan
+hadir dan memberikan doa restu. Atas kehadiran
+dan doa restunya, kami mengucapkan terima kasih.</p>
+<div class="salam-akhir gsap-akhir1"><h1>Waalaikumsalam.wr.wb</h1></div>
+  <div class="gr3-akhir gsap-akhir2"><h1>Dery & Riska</h1></div>
+      </div>
+    <div class="akhir">
+      <img src="akhir.png" alt="">
+      </div>
+    <div class="akhir2">
+      <img src="akhir2.png" alt="">
+    </div>
+
+<footer>
+  <p>© 2025 Dibuat dengan ❤️ oleh <strong>NHD Studio</strong></p>
+  <img src="footer.png" alt="">
+  <div id="animated-text"></div>
+</footer>
+
+</div>
+ 
+<script>
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+
+    document.querySelectorAll(".parallax-layer").forEach(layer => {
+      const speed = parseFloat(layer.dataset.speed);
+      layer.style.transform = `translateY(${scrollY * speed}px)`;
+    });
+  });
+</script>
+<script>const text = "HAPPY❤️WEDDING❤️";
+const container = document.getElementById("animated-text");
+
+text.split("").forEach((char, i) => {
+  const span = document.createElement("span");
+  span.textContent = char;
+  span.style.animationDelay = `${i * 0.1}s`;
+  container.appendChild(span);
+});</script>
+<script>
+document.getElementById("kirim").addEventListener("click", function () {
+  const footerImage = document.querySelector("footer img");
+  const animatedText = document.getElementById("animated-text");
+
+  if (footerImage) {
+    footerImage.style.display = "none";
+  }
+
+  if (animatedText) {
+    animatedText.style.display = "none";
+  }
+});
+</script>
+
+  <script type='text/javascript'>//<![CDATA[
+/******************************************
+* Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
+* Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
+* Last updated Nov 9th, 05 by DD. This notice must stay intact for use
+******************************************/
+//Configure below to change URL path to the snow image
+var snowsrc="daun1.png";
+// Configure below to change number of snow to render
+var no = 20;
+// Configure whether snow should disappear after x seconds (0=never):
+var hidesnowtime = "0";
+// Configure how much snow should drop down before fading ("windowheight" or "pageheight")
+var snowdistance = "pageheight";
+///////////Stop Config//////////////////////////////////
+   
+     var ie4up = (document.all) ? 1 : 0;
+     var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+   
+    function iecompattest(){
+    return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+    }
+   
+     var dx, xp, yp;    // coordinate and position variables
+     var am, stx, sty;  // amplitude and step variables
+     var i, doc_width = 800, doc_height = 400; 
+     
+     if (ns6up) {
+    doc_width = self.innerWidth;
+    doc_height = self.innerHeight;
+     } else if (ie4up) {
+    doc_width = iecompattest().clientWidth;
+    doc_height = iecompattest().clientHeight;
+     }
+   
+     dx = new Array();
+     xp = new Array();
+     yp = new Array();
+     am = new Array();
+     stx = new Array();
+     sty = new Array();
+     snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "snow.gif" : snowsrc
+     for (i = 0; i < no; ++ i) {  
+    dx[i] = 0;                        // set coordinate variables
+    xp[i] = Math.random()*(doc_width-50);  // set position variables
+    yp[i] = Math.random()*doc_height;
+    am[i] = Math.random()*20;         // set amplitude variables
+    stx[i] = 0.02 + Math.random()/10; // set step variables
+    sty[i] = 0.5 + Math.random() * 0.5;     // set step variables
+     if (ie4up||ns6up) {
+      if (i == 0) {
+     document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ 999999 +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://www.ahmadrifai.net\"><img src="+snowsrc+" border='0' width='16' height='16'><\/a><\/div>");
+      } else {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ 999999 +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border='0' width='16' height='16'><\/div>");
+      }
+    }
+     }
+   
+     function snowIE_NS6() {  // IE and NS6 main animation function
+    doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
+     doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
+    for (i = 0; i < no; ++ i) {  // iterate for every dot
+      yp[i] += sty[i];
+      if (yp[i] > doc_height-50) {
+     xp[i] = Math.random()*(doc_width-am[i]-30);
+     yp[i] = 0;
+     stx[i] = 0.02 + Math.random()/10;
+     sty[i] = 0.7 + Math.random();
+      }
+      dx[i] += stx[i];
+      document.getElementById("dot"+i).style.top=yp[i]+"px";
+      document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
+    }
+    snowtimer=setTimeout("snowIE_NS6()", 10);
+     }
+   
+    function hidesnow(){
+     if (window.snowtimer) clearTimeout(snowtimer)
+     for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
+    }
+     
+   
+   if (ie4up||ns6up){
+    snowIE_NS6();
+     if (hidesnowtime>0)
+     setTimeout("hidesnow()", hidesnowtime*1000)
+     }
+//]]></script>
+<script>
+  const countdownDate = new Date("September 30, 2025 00:00:00").getTime();
+
+const interval = setInterval(() => {
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minutes").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(interval);
+    document.getElementById("countdown").innerHTML = "<h2>Hari Bahagia Telah Tiba 🎉</h2>";
+  }
+}, 1000);
+
+function bukaAmplop() {
+      document.querySelector('.amplop-container').classList.toggle('active');
+            document.querySelector('.amplop1').classList.toggle('active');
+    }
+    </script>
+    <script>
+    const fotoList = [
+  "galeri.jpg",
+  "galeri2.jpg",
+  "galeri1.jpg",
+   "galeri3.jpg",
+   "fhoto1.jpg"
+];
+let indexSekarang = 0;
+
+function bukaPopup(index) {
+  indexSekarang = index;
+  document.getElementById("popup-img").src = fotoList[index];
+  document.getElementById("popup-galeri").style.display = "flex";
+}
+
+function tutupPopup() {
+  document.getElementById("popup-galeri").style.display = "none";
+}
+
+function sebelumnya() {
+  indexSekarang = (indexSekarang - 1 + fotoList.length) % fotoList.length;
+  document.getElementById("popup-img").src = fotoList[indexSekarang];
+}
+
+function selanjutnya() {
+  indexSekarang = (indexSekarang + 1) % fotoList.length;
+  document.getElementById("popup-img").src = fotoList[indexSekarang];
+}
+</script>
+
+<script>
+function bukaUndangan() {
+  document.getElementById("cover").classList.add("naik");
+  document.body.classList.remove("lock-scroll"); // aktifkan scroll
+}
+</script>
+<script>
+  let kehadiranTamu = null; // status kehadiran yang akan dikunci setelah kirim pertama
+let komentarList = [];
+let currentPage = 1;
+const komentarPerPage = 3;
+let hadirCount = 0;
+let tidakHadirCount = 0;
+
+function ambilNamaTamu() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const nama = urlParams.get('nama');
+
+  // Isi ke elemen #nama-tamu (misalnya di cover)
+  const namaTamuEl = document.getElementById("nama-tamu");
+  if (nama && namaTamuEl) {
+    namaTamuEl.textContent = decodeURIComponent(nama);
+  }
+
+  // Isi ke input form
+  const namaInput = document.getElementById("nama");
+  const ucapanInput = document.getElementById("ucapan");
+  const peringatan = document.getElementById("peringatan");
+
+  if (nama && namaInput) {
+    namaInput.value = decodeURIComponent(nama);
+    namaInput.readOnly = true;
+    ucapanInput.disabled = false;
+    peringatan.style.display = "none";
+  } else {
+    ucapanInput.disabled = true;
+    peringatan.style.display = "block";
+  }
+}
+function kirimUcapan() {
+  const nama = document.getElementById("nama").value.trim();
+  const ucapan = document.getElementById("ucapan").value.trim();
+  const kehadiranSelect = document.getElementById("kehadiran");
+  const kehadiran = kehadiranSelect.value;
+
+  if (!nama || !ucapan) {
+    alert("Mohon lengkapi nama dan ucapan!");
+    return;
+  }
+
+  // Jika belum isi kehadiran, wajib isi
+  if (!kehadiranTamu) {
+    if (!kehadiran) {
+      alert("Mohon pilih konfirmasi kehadiran terlebih dahulu!");
+      return;
+    }
+
+    kehadiranTamu = kehadiran; // simpan status
+
+    if (kehadiran === "Hadir") hadirCount++;
+    else if (kehadiran === "Tidak Hadir") tidakHadirCount++;
+
+    // Disable dropdown agar tidak bisa diubah lagi
+    kehadiranSelect.disabled = true;
+  }
+
+  // Simpan komentar
+  komentarList.push({ nama, ucapan, waktu: new Date().toLocaleString() });
+
+  tampilkanKomentar();
+
+  // Reset hanya ucapan
+  document.getElementById("ucapan").value = "";
+}
+
+function tampilkanKomentar() {
+  const container = document.getElementById("daftar-komentar");
+  container.innerHTML = ""; // bersihkan dulu
+
+  // Hitung indeks komentar yang akan ditampilkan
+  const startIndex = (currentPage - 1) * komentarPerPage;
+  const endIndex = startIndex + komentarPerPage;
+  const komentarSubset = komentarList.slice(startIndex, endIndex);
+
+  // Tampilkan komentar subset
+  komentarSubset.forEach(k => {
+    const div = document.createElement("div");
+    div.className = "komentar";
+    div.innerHTML = `<strong>${k.nama}</strong><br><em>${k.ucapan}</em><br><small>${k.waktu}</small>`;
+    container.appendChild(div);
+  });
+
+  // Update statistik
+  document.getElementById("hadir-count").textContent = hadirCount;
+  document.getElementById("tidak-hadir-count").textContent = tidakHadirCount;
+  document.getElementById("komentar-count").textContent = komentarList.length;
+
+  // Tampilkan navigasi
+  tampilkanNavigasiKomentar();
+}
+function tampilkanNavigasiKomentar() {
+  const navContainer = document.getElementById("navigasi-komentar");
+  navContainer.innerHTML = "";
+
+  const totalPages = Math.ceil(komentarList.length / komentarPerPage);
+  if (totalPages <= 1) return;
+
+  const prevBtn = document.createElement("button");
+  prevBtn.textContent = "← Sebelumnya";
+  prevBtn.disabled = currentPage === 1;
+  prevBtn.onclick = () => {
+    currentPage--;
+    tampilkanKomentar();
+  };
+
+  const nextBtn = document.createElement("button");
+  nextBtn.style.position = "relative";
+nextBtn.style.zIndex = "222222";
+  nextBtn.textContent = "Berikutnya →";
+  nextBtn.disabled = currentPage === totalPages;
+  nextBtn.onclick = () => {
+    currentPage++;
+    tampilkanKomentar();
+  };
+
+  navContainer.appendChild(prevBtn);
+  navContainer.appendChild(document.createTextNode(` Halaman ${currentPage} dari ${totalPages} `));
+  navContainer.appendChild(nextBtn);
+}
+
+// ✅ Gabungkan semua ke dalam satu window.onload
+window.onload = function () {
+  ambilNamaTamu();
+  tampilkanKomentar(); // opsional, jika ada komentar awal
+};
+</script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAuOpaosCAbNTRHkApvJ8cjhXCeYscAn88",
+    authDomain: "undangan-digital-f9d14.firebaseapp.com",
+    projectId: "undangan-digital-f9d14",
+    storageBucket: "undangan-digital-f9d14.firebasestorage.app",
+    messagingSenderId: "558803509710",
+    appId: "1:558803509710:web:41c6f78bb998ab37a88b9f",
+    measurementId: "G-YGEKLL659K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+<script>function munculkanLove() {
+  const love = document.createElement("div"); // Buat elemen <div>
+  love.className = "love";                    // Tambahkan class "love"
+  love.textContent = "❤️";                    // Isi dengan emoji love
+
+  // Posisi horizontal acak
+  love.style.left = Math.random() * window.innerWidth + "px";
+
+  // Tambahkan ke halaman
+  document.body.appendChild(love);
+
+  // Hapus setelah animasi selesai
+  setTimeout(() => {
+    love.remove();
+  }, 2000); // 2 detik
+}
+
+// Munculkan love setiap 500ms (setengah detik)
+setInterval(munculkanLove, 500);</script>
+<script>
+gsap.fromTo(".gsap-foto",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".countdown",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".Bismillah",
+      start: "top 90%",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".salam",
+      start: "top 85%",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto3",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".salam1",
+      start: "top 80%",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto4",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".salam1",
+      start: "top 80%",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto5",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".salam1",
+      start: "top 80%",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto6",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".nama1",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto7",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".nama1",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-foto8",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".nama1",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-save",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".nama4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-save1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".nama4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-svg2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".save",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-svg4",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg2",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-tree",
+  { x: -50, opacity: 0, scale: 0.8 },
+  {
+    x: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-tree1",
+  { x: -50, opacity: 0, scale: 0.8 },
+  {
+    x: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-amplop",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-amplop1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-amplop2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".svg4",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-galery1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".amplop-container",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-galery2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".amplop-container",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-wrapper",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".amplop-container",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-love",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".amplop-container",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan3",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan4",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan5",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan6",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan7",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-ucapan8",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".foto-wrapper",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-romantis",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".gsap-ucapan7",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-akhir1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".gsap-ucapan7",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-akhir2",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".gsap-ucapan7",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-hero",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 3,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".hero",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-gr1",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 3,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".gr1",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-gr3",
+  { y: -50, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 3,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".gr3",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-guest",
+  { y: -10, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 3,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".gsap-guest",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+gsap.fromTo(".gsap-button",
+  { y: -10, opacity: 0, scale: 0.8 },
+  {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    duration: 3,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".gsap-button",
+      start: "top center",
+      toggleActions: "restart none none none"
+    }
+  }
+);
+</script>
+<script>document.querySelectorAll(".copy-btn1").forEach(button => {
+  button.addEventListener("click", () => {
+    const targetSelector = button.getAttribute("data-copy");
+    const target = document.querySelector(targetSelector);
+    const text = target.textContent;
+
+    navigator.clipboard.writeText(text).then(() => {
+      button.textContent = "Tersalin ✅";
+      setTimeout(() => {
+        button.textContent = "Copy";
+      }, 1500);
+    }).catch(err => {
+      console.error("Gagal menyalin:", err);
+    });
+  });
+});</script>
+
+<script>const music = document.getElementById('bg-music');
+const toggleBtn = document.getElementById('music-toggle');
+
+// Set volume dan muted agar autoplay diizinkan
+music.volume = 0.5;
+music.muted = true; // sementara mute agar autoplay diizinkan
+
+// Coba autoplay saat halaman dimuat
+window.addEventListener('DOMContentLoaded', () => {
+  const playPromise = music.play();
+
+  if (playPromise !== undefined) {
+    playPromise
+      .then(() => {
+        // Autoplay berhasil, unmute setelah diputar
+        setTimeout(() => {
+          music.muted = false;
+        }, 500); // beri jeda agar tidak diblokir
+      })
+      .catch(() => {
+        // Autoplay gagal, tunggu interaksi pengguna
+        document.body.addEventListener('click', enableMusicOnce, { once: true });
+      });
+  }
+});
+
+// Fungsi untuk mengaktifkan musik saat interaksi pertama
+function enableMusicOnce() {
+  music.muted = false;
+  music.play();
+  toggleBtn.classList.remove('paused');
+}
+
+// Toggle musik saat tombol diklik
+toggleBtn.addEventListener('click', () => {
+  if (music.paused) {
+    music.play();
+    toggleBtn.classList.remove('paused');
+  } else {
+    music.pause();
+    toggleBtn.classList.add('paused');
+  }
+});</script>
+</body>
+</html>
