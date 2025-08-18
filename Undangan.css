@@ -1412,7 +1412,6 @@ animation: goyangBunga 8s ease-in-out infinite;
   left: 50%;
   width: 24px;
   height: 24px;
-  background-image: url('icon-play.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
