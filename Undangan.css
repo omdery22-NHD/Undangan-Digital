@@ -1419,7 +1419,7 @@ animation: goyangBunga 8s ease-in-out infinite;
  animation:none;
   background-image: url('Music1.png');
 }
-#music-toggle.paused .btn {
+#music-toggle.paused .disk .btn {
 opacity: 0;
 }
 @keyframes rotateDisk {
