@@ -1411,11 +1411,11 @@ animation: goyangBunga 8s ease-in-out infinite;
   transition: transform 0.3s ease;
 }
 
-.disk #music-toggle:hover  {
+#music-toggle:hover  {
   transform: scale(1.1);
 }
 
-.disk #music-toggle.paused {
+#music-toggle.paused {
   animation: none;
   background-image: url('Music1.png');
 }
