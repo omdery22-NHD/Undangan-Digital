@@ -1386,7 +1386,7 @@ animation: goyangBunga 8s ease-in-out infinite;
 }
 
 
-.disk #music-toggle {
+.disk {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -1400,7 +1400,7 @@ animation: goyangBunga 8s ease-in-out infinite;
   overflow: hidden;
 }
 
-.disk {
+.disk #music-toggle {
   width: 100%;
   height: 100%;
   background-image: url('icon-play.png');
