@@ -230,7 +230,7 @@ dan doa restunya, kami mengucapkan terima kasih.</p>
 
   <!-- Tombol Musik -->
   <div class="disk>
-<button id="music-toggle">
+<button id="music-toggle">🎵
 </button>
   </div>
 </footer>
@@ -536,6 +536,7 @@ function tampilkanNavigasiKomentar() {
   const nextBtn = document.createElement("button");
   nextBtn.style.position = "relative";
 nextBtn.style.zIndex = "222222";
+  nextBtn.style.marginBottom= "30px";
   nextBtn.textContent = "Berikutnya →";
   nextBtn.disabled = currentPage === totalPages;
   nextBtn.onclick = () => {
