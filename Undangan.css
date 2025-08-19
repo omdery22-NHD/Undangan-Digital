@@ -1398,12 +1398,12 @@ animation: goyangBunga 8s ease-in-out infinite;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 9999;
   overflow: hidden;
+ animation: rotateDisk 3s linear infinite;
 }
 
 .disk {
   width: 100%;
   height: 100%;
-  animation: rotateDisk 3s linear infinite;
   background-image: url('icon-play.png');
   background-size: contain;
   background-repeat: no-repeat;
