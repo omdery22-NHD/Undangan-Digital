@@ -1411,13 +1411,12 @@ animation: goyangBunga 8s ease-in-out infinite;
   transition: transform 0.3s ease;
 }
 
-#music-toggle:hover .disk{
+#music-toggle:hover .disk {
   transform: scale(1.1);
 }
 
 #music-toggle.paused .disk { 
  animation:none;
- z-index: 222222;
   background-image: url('Music1.png');
 }
 @keyframes rotateDisk {
