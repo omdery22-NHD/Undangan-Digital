@@ -1415,11 +1415,13 @@ animation: goyangBunga 8s ease-in-out infinite;
   transform: scale(1.1);
 }
 
-#music-toggle.paused .disk{ 
+#music-toggle.paused .disk { 
  animation:none;
   background-image: url('Music1.png');
 }
-
+#music-toggle.paused .btn {
+opacity: 0;
+}
 @keyframes rotateDisk {
   from {
     transform: rotate(0deg);
