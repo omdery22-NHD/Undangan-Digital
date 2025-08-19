@@ -164,7 +164,7 @@ p {
   top: -445px;
   position: relative;
   display: flex;
-  flex-wrap: flex-wrap;
+  flex-wrap: wrap;
   justify-content: center;
   display: block;
   z-index: 1111;
@@ -852,10 +852,8 @@ width: 280px;
       position: relative;
       top: -2680px;
             background: linear-gradient(to left, white, #4285F4);
-            footer {
-  
+
 }
-    }
     #form-ucapan p {
       top: 80px;
       position: relative;
