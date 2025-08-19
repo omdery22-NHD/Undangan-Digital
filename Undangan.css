@@ -1414,9 +1414,10 @@ animation: goyangBunga 8s ease-in-out infinite;
 .disk:hover {
   transform: scale(1.1);
 }
-
-.disk.paused::after  {
-  animation: none;
+.disk.paused {
+animation: none;
+}
+.disk.paused::after  { 
   background-image: url('Music1.png');
 }
 
