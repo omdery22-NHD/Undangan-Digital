@@ -1419,13 +1419,13 @@ animation: goyangBunga 8s ease-in-out infinite;
 
 #music-toggle.paused { 
  animation: none;
+ opacity: 0;
+}
+#music-toggle.paused::after {
   background-image: url('Music1.png');
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center;
-}
-.disk.pause {
- opacity: 0;
 }
 @keyframes rotateDisk {
   from {
