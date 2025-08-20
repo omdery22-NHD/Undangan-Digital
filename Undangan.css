@@ -1421,6 +1421,9 @@ animation: goyangBunga 8s ease-in-out infinite;
 #music-toggle.paused { 
  animation:none;
   background-image: url('Music1.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
 }
 @keyframes rotateDisk {
   from {
