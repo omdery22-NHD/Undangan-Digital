@@ -1396,7 +1396,6 @@ animation: goyangBunga 8s ease-in-out infinite;
   border: none;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  z-index: 9999;
   overflow: hidden;
 }
 
@@ -1424,9 +1423,6 @@ animation: goyangBunga 8s ease-in-out infinite;
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center;
-}
-#music-toggle.pause .disk {
-opacity: 0;
 }
 @keyframes rotateDisk {
   from {
