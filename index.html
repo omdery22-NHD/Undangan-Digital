@@ -229,14 +229,19 @@ dan doa restunya, kami mengucapkan terima kasih.</p>
   </audio>
 
   <!-- Tombol Musik -->
-  <div class="disk">
-<button id="music-toggle">🎵
-</button>
-  </div>
+<div id="music-toggle" aria-label="Toggle Music">
+  <div class="disk">🎵</div>
+</div>
 </footer>
 
 </div>
- 
+ <script>
+   // JavaScript
+document.getElementById('music-toggle').addEventListener('click', function () {
+  this.classList.toggle('paused');
+  // Tambahkan logika play/pause audio di sini jika ada
+});
+ </script>
 <script>
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
