@@ -1409,13 +1409,16 @@ animation: goyangBunga 8s ease-in-out infinite;
   background-position: center;
   transition: transform 0.3s ease;
  animation: rotateDisk 3s linear infinite;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
-.disk:hover {
+#music-toggle:hover {
   transform: scale(1.1);
 }
 
-.disk.paused { 
+#music-toggle.paused { 
  animation:none;
   background-image: url('Music1.png');
 }
