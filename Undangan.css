@@ -1384,46 +1384,52 @@ animation: goyangBunga 8s ease-in-out infinite;
     position: relative;
   }
 }
-
-
-#music-toggle  {
+#music-toggle {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* gradient biru */
   border: none;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  overflow: hidden;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+  animation: rotateDisk 3s linear infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#music-toggle .disk {
-  width: 100%;
-  height: 100%;
+/* Ikon play di atas gradient */
+#music-toggle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
   background-image: url('icon-play.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  transition: transform 0.3s ease;
- animation: rotateDisk 3s linear infinite;
- display: flex;
- align-items: center;
- justify-content: center;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
 }
 
+/* Hover efek */
 #music-toggle:hover {
   transform: scale(1.1);
 }
 
-#music-toggle.paused { 
- animation: none;
+/* Saat musik mati: berhenti berputar dan ganti ikon */
+#music-toggle.paused {
+  animation: none;
+}
+
+#music-toggle.paused::after {
   background-image: url('Music1.png');
- background-size: contain;
- background-repeat: no-repeat;
- background-position: center;
- z-index: 9999;
 }
 @keyframes rotateDisk {
   from {
@@ -1433,3 +1439,5 @@ animation: goyangBunga 8s ease-in-out infinite;
     transform: rotate(360deg);
   }
 }
+
+
