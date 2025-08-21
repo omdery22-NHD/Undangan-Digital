@@ -1402,21 +1402,6 @@ animation: goyangBunga 8s ease-in-out infinite;
   background-position: center;
 }
 
-/* Ikon play di atas gradient */
-#music-toggle::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  background-image: url('icon-play.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-}
 
 /* Hover efek */
 #music-toggle:hover {
