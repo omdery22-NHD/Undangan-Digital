@@ -1411,7 +1411,9 @@ animation: goyangBunga 8s ease-in-out infinite;
 /* Saat musik mati: berhenti berputar dan ganti ikon */
 #music-toggle.paused {
   animation: none;
- background-image: url('Music1.png');
+}
+#music-toggle.paused::after {
+  background-image: url('Music1.png');
 }
 @keyframes rotateDisk {
   from {
