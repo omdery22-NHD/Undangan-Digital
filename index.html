@@ -228,20 +228,11 @@ dan doa restunya, kami mengucapkan terima kasih.</p>
     Browser Anda tidak mendukung audio.
   </audio>
 
-  <!-- Tombol Musik -->
-<div id="music-toggle" aria-label="Toggle Music">
-  <div class="disk">🎵</div>
-</div>
+    <!-- Tombol Musik -->
+  <button id="music-toggle" aria-label="Toggle Music">🎵</button>
 </footer>
 
 </div>
- <script>
-   // JavaScript
-document.getElementById('music-toggle').addEventListener('click', function () {
-  this.classList.toggle('paused');
-  // Tambahkan logika play/pause audio di sini jika ada
-});
- </script>
 <script>
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
@@ -643,7 +634,7 @@ gsap.fromTo(".gsap-foto2",
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".salam",
-      start: "top 85%",
+      start: "top 90%",
       toggleActions: "restart none none none"
     }
   }
